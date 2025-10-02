@@ -1,6 +1,6 @@
 header {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     padding: 1rem 2rem;
     background-color: rgb(94, 66, 219);
@@ -24,13 +24,7 @@ body {
 .menu {
     list-style: none;
     display:flex;
-    margin: 0 15px;
-}
-
-
-.page {
-    text-decoration: none;
-    color: darkseagreen;
+    margin: 0 10px;
 }
 
 
@@ -62,4 +56,16 @@ button {
     color: rgb(255, 255, 255);
     border: 0;
     padding: 1%;
+}
+
+
+li {
+    display:flex;
+    margin: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(21, 255, 0);
+
 }
