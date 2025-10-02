@@ -20,6 +20,7 @@ body {
     
 }
 
+
 .menu {
     list-style: none;
     display:flex;
@@ -30,4 +31,35 @@ body {
 .page {
     text-decoration: none;
     color: darkseagreen;
+}
+
+
+section {
+    padding: 2rem 0;
+    border-top:1ch;
+}
+
+
+input {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0%;
+    border: 2cap;
+    margin-bottom: 2%;
+}
+
+textarea {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0%;
+    border: 2cap;
+    margin-bottom: 2%;
+}
+
+
+button {
+    background-color: blue;
+    color: rgb(255, 255, 255);
+    border: 0;
+    padding: 1%;
 }
